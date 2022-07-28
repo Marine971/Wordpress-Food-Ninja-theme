@@ -52,3 +52,48 @@ ul li a {
 .index_title p{
     text-align: center;
 }
+.container_single h2{
+    font-family: merriweather, serif;
+    font-weight: 550;
+    font-style: normal;
+    font-size: 48px;
+}
+.container_single #category{
+    background-color: #283A61;
+    color:#FFFFFF;
+    text-align: center;
+    border-radius: 5%;
+    padding-left: 0;
+}
+.container_single .container_category{
+    padding-left: 0;
+    
+}
+.container_single #date{
+    font-family: merriweather, serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 14px;
+    
+}
+.container_single figure img{
+    width: 100%;
+    height: auto;
+    
+}
+.container_single #avatar{
+    border-radius: 50%;
+    width: 40px;
+}
+.container_single #card-avatar p{
+    display: inline;
+    font-family: merriweather, serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 14px;
+}
+.container_single figure img{
+    border-radius: 25px;
+    box-shadow: 10px 5px 5px black;
+}
+

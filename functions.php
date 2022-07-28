@@ -1,4 +1,8 @@
 <?php
+
+// support de thumbnails
+add_theme_support( 'post-thumbnails' );
+set_post_thumbnail_size( 700, 278, true );
 //ajouter une nouvelle zone de menu à mon thème
 function my_custom_menu() {
     register_nav_menus(
@@ -26,7 +30,7 @@ function fninja_customize_register( $wp_customize )
         
     ) );
 
-    $wp_customize->add_control( new WP_Customize_Control( $wp_customize,'fninja_home', array(
+    $wp_customize->add_control( new WP_Customize_Control( $wp_customize,'Index_title_text_block', array(
         'label'    => __( 'Title page' ),
         'section'  => 'fninja_home',
         'settings' => 'Index_title_text_block',
@@ -39,7 +43,7 @@ function fninja_customize_register( $wp_customize )
         
     ) );
 
-    $wp_customize->add_control( new WP_Customize_Control( $wp_customize,'fninja_home', array(
+    $wp_customize->add_control( new WP_Customize_Control( $wp_customize,'Index_subtitle_text_block', array(
         'label'    => __( 'Subtitle page' ),
         'section'  => 'fninja_home',
         'settings' => 'Index_subtitle_text_block',
